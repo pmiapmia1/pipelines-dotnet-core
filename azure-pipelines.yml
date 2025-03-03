@@ -8,6 +8,8 @@ trigger:
 
 pool:
   name: agentpool1
+  demands:
+  - agent.name -equals agenthome1
 
 variables:
   buildConfiguration: 'Release'
